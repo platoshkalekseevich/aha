@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int closeStepen(int value) {
-    int cnt = 0;
+    int cnt = 1;
     bool is_stepen = true;
     while (value > 1) {
         if (value % 2 == 1) is_stepen = false;
